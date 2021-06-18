@@ -73,7 +73,7 @@ export default function Home() {
       </form>
 
       {/* footer */}
-      <Footer />
+      
      
     </div>
   )
