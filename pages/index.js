@@ -9,7 +9,7 @@ import {useRouter} from 'next/router';
 
 export default function Home() {
   const router = useRouter();
-  
+  const text = `you're free`
 
   return (
     <div className="flex flex-col items-center justify-center h-screen ">
@@ -17,6 +17,7 @@ export default function Home() {
         <title>Google</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <div >        {text}       </div>
 
       {/* Header */}
       <header className='flex w-full p-5 justify-between text-sm text-gray-700'>
