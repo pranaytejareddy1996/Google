@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true,
+  images : {
+    domains : ['hdfreewallpaper.net' , 'www.google.com']
+  }
+  
 }
